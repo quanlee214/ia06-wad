@@ -1,15 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import * as Lucide from "lucide-react";
 
-const getInitial = (email: string) => {
-  if (!email) return "?";
-  const name = email.split("@")[0];
-  return name.charAt(0).toUpperCase();
-};
-
 const Header = ({ user, onLogout }: { user: string | null; onLogout: () => void }) => {
   const navigate = useNavigate();
-  const username = user ? user.split("@")[0] : "";
   return (
     <header className="w-full flex items-center justify-between px-8 py-4 bg-white shadow-sm border-b border-gray-200">
       <div className="font-bold text-2xl text-blue-600">IA03</div>
