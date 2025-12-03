@@ -110,7 +110,7 @@ const Home = () => {
                   Secure Registration System
                 </div>
                 <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
-                  Welcome to IA03
+                  Welcome to IA06
                 </h1>
                 <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                   A modern user registration system built with React, TypeScript, and Tailwind CSS.

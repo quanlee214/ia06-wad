@@ -5,7 +5,7 @@ const Header = ({ user, onLogout }: { user: string | null; onLogout: () => void 
   const navigate = useNavigate();
   return (
     <header className="w-full flex items-center justify-between px-8 py-4 bg-white shadow-sm border-b border-gray-200">
-      <div className="font-bold text-2xl text-blue-600">IA03</div>
+      <div className="font-bold text-2xl text-blue-600">IA06</div>
       <div>
         {user ? (
           <div className="flex items-center gap-4">
