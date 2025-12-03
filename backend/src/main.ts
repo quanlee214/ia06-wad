@@ -6,7 +6,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',
-      'https://ia03-frontend-sooty.vercel.app' 
+      'https://ia06-wad.vercel.app' 
     ],
     credentials: true,
   });
