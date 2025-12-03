@@ -81,16 +81,16 @@ const Login = () => {
   };
 
   return (
-  <div className="min-h-screen flex items-center justify-center px-4 py-8 bg-gradient-to-br from-[#eaf4fb] via-[#f7fafd] to-[#5997c6]/10">
+    <div className="min-h-screen flex items-center justify-center px-4 py-8 bg-gray-50">
       <div className="w-full max-w-md">
-        <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors">
+        <Link to="/" className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900 mb-6 transition-colors">
           <Lucide.ArrowLeft className="w-4 h-4" />
           Back to Home
         </Link>
 
-  <Card className="shadow-glow border border-[#5997c6]">
+        <Card className="shadow-lg border border-gray-200">
           <CardHeader className="space-y-1">
-            <CardTitle className="text-2xl font-bold text-center">Welcome back</CardTitle>
+            <CardTitle className="text-2xl font-bold text-center text-gray-900">Welcome back</CardTitle>
             <CardDescription className="text-center">
               Enter your credentials to sign in to your account
             </CardDescription>
@@ -129,7 +129,7 @@ const Login = () => {
 
               <Button
                 type="submit"
-                className="w-full bg-[#5997c6] text-white hover:bg-[#4176a3]"
+                className="w-full bg-blue-600 text-white hover:bg-blue-700"
                 disabled={mutation.isPending || mutation.isSuccess}
               >
                 {mutation.isPending ? (
